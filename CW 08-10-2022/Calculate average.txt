@@ -1,0 +1,23 @@
+function find_average(array) {
+  // your code here
+  
+  product = 0;
+  
+  if (array == '') {
+    return 0
+  }
+  else {
+    for (i = 0; i < array.length; i++) {
+      product += array[i];
+    }   
+  }
+  
+  
+  let finalProduct = product / array.length;
+
+  
+  return finalProduct;
+  
+  
+  
+}
