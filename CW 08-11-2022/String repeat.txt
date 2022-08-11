@@ -1,0 +1,10 @@
+function repeatStr (n, s) {
+  
+  let product = '';
+  
+  for (i = 0; i < n; i++) {
+    product += s;
+  }
+  
+  return product;
+}
