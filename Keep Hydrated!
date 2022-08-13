@@ -1,0 +1,16 @@
+function litres(time) {
+  let liters = 0.5
+  let hour = time
+  
+  let hoursLiters = hour * liters
+  
+  return Math.floor(hoursLiters)
+    
+}
+
+
+/// BEST PRACTICES ///
+
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
