@@ -1,0 +1,23 @@
+function booleanToString(b){
+  //your code here
+
+  if (  b === true  ) {
+    return 'true'
+  } else {
+    return 'false'
+  }
+  
+
+}
+
+//// BEST PRACTICE ////
+
+function booleanToString(b){
+  return b.toString();
+}
+
+	OR
+
+function booleanToString(b){
+  return b ? 'true' : 'false';
+}
