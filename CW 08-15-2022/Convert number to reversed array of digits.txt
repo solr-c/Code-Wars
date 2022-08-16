@@ -1,0 +1,21 @@
+// MY CODE //
+
+function digitize(n) {
+  //code here
+  let arr = n
+  arr = String(n).split("").reverse().map(Number)
+
+  return arr
+}
+
+//// BEST PRACTICE ////
+
+function digitize(n) {
+  return String(n).split('').map(Number).reverse()
+}
+
+//
+
+function digitize(n) {
+  return Array.from(String(n), Number).reverse();
+}
