@@ -1,0 +1,24 @@
+/// MY CODE ///
+
+var summation = function (num) {
+  let newNum = 0;   
+  
+  for (let i = 0; i <= num; i++ ) {
+    newNum += i;
+  }
+  return newNum
+}
+
+
+////	BEST PRACTICE(S)	////
+
+
+const summation = n => n * (n + 1) / 2;
+
+
+//
+
+
+function summation(num) {
+  return num * (num + 1) / 2
+}
