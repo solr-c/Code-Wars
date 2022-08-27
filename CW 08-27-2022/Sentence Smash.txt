@@ -1,0 +1,18 @@
+/// MY CODE ///
+
+function smash (words) {
+  let smashWords = words  
+  return `${smashWords.join(' ')}`
+};
+
+
+
+/// BEST PRACTICE(S) ///
+
+smash = function (words) {
+  return words.join(" ");
+};
+
+//
+
+const smash = words => words.join(' ');
