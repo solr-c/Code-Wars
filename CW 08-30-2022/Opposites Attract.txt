@@ -1,0 +1,27 @@
+//// MY CODE ////
+
+function lovefunc(flower1, flower2){
+  // moment of truth
+  if (flower1 % 2 != flower2 % 2) {
+    return true
+  }
+  else {
+    return false
+  }
+  
+}
+
+
+/// BEST PRACTICE(S) ///
+
+function lovefunc(flower1, flower2){
+  return flower1 % 2 !== flower2 % 2;
+}
+
+
+//
+
+
+function lovefunc(flower1, flower2){
+  return (flower1 + flower2) % 2 === 1
+}
