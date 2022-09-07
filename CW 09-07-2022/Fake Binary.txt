@@ -1,0 +1,36 @@
+/// MY CODE ///
+
+function fakeBin(x){
+  let digits = x.split('')
+  
+  let digitsJoin = []
+  
+    for (let i = 0; i < digits.length; i++) {
+
+      if (digits[i] < 5) {
+        digitsJoin.push(0)
+      }
+      else if (digits[i] >= 5) {
+        digitsJoin.push(1)
+      }
+
+  }
+  
+    return digitsJoin.join('')
+    console.log(digitsJoin)
+  
+}
+
+  
+/// BEST PRACTICE(S) ///
+
+
+function fakeBin(x) {
+    return x.split('').map(n => n < 5 ? 0 : 1).join('');
+}
+
+//
+
+function fakeBin(x) {
+  return x.replace(/\d/g, d => d < 5 ? 0 : 1);
+}
