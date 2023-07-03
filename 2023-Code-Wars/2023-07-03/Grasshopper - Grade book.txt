@@ -1,0 +1,18 @@
+function getGrade (s1, s2, s3) {
+  
+  let grades = s1 + s2 + s3
+  let averageGrades = grades / 3
+  
+  if (averageGrades >= 90) {
+    return 'A'
+  } else if (averageGrades >= 80) {
+    return 'B'
+  } else if (averageGrades >= 70) {
+    return 'C'
+  } else if (averageGrades >= 60) {
+    return 'D'
+  } else {
+    return 'F'
+  }
+  
+}
