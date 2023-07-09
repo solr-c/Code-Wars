@@ -1,0 +1,7 @@
+var countSheep = function (num){
+  let emptyString = ''
+  for (let i = 1; i <= num; i++) {
+    emptyString += `${i} sheep...`
+  }
+  return emptyString
+}
