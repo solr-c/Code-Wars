@@ -1,0 +1,9 @@
+function arrayPlusArray(arr1, arr2) {
+  let combinedArr1 = arr1.reduce(((a,b) => a + b))
+  console.log(combinedArr1)
+  
+  let combinedArr2 = arr2.reduce(((a,b) => a + b))
+  console.log(combinedArr2)
+  
+  return combinedArr1 + combinedArr2
+}
