@@ -1,0 +1,20 @@
+function getCount(str) {
+  let strSplit = str.split('')
+  let numVowels = 0
+  
+  strSplit.forEach( vowel => {
+    if(vowel === 'a') {
+      numVowels += 1
+    } else if (vowel === 'e') {
+      numVowels += 1
+    } else if (vowel === 'i') {
+      numVowels += 1
+    } else if (vowel === 'o') {
+      numVowels += 1
+    } else if (vowel === 'u') {
+      numVowels += 1
+    }
+  })
+  return numVowels
+  console.log(numVowels)  
+}
