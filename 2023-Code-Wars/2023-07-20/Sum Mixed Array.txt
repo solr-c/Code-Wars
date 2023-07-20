@@ -1,0 +1,3 @@
+function sumMix(x){
+   return x.map(digit => Number(digit)).reduce((a,b) => a + b, 0)
+}
