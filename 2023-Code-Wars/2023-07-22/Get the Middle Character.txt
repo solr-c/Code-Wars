@@ -1,0 +1,13 @@
+function getMiddle(s) {
+
+  let splitS = s.split('')
+
+  for (let i = 0; i < splitS.length; i++) {
+    if (splitS.length % 2 === 0) {
+      return splitS[splitS.length / 2 - 1] + splitS[splitS.length / 2]
+    } else if (splitS.length % 2 !== 0) {
+      return splitS[Math.floor(s.length / 2)]
+    }
+  }
+  
+}
