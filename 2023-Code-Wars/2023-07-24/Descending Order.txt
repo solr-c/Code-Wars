@@ -1,0 +1,1 @@
+const descendingOrder = n => Number(n.toString().split('').sort((a,b) => a - b).reverse().join(''))
