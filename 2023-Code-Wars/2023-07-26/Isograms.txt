@@ -1,0 +1,15 @@
+function isIsogram(str){
+  
+  let strSplit = str.toLowerCase()
+  
+  for (let i = 0; i < str.length; i++) {
+    for (let j = i + 1; j < str.length; j++) {
+      if(strSplit[i] === strSplit[j]) {
+        return false
+      }
+    }
+  }
+  return true
+  console.log(isoGram)
+  
+}
