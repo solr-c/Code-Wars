@@ -1,0 +1,11 @@
+function getSum(a, b) {
+  
+  let sum = 0
+  let aBig = Math.max(a, b)
+  let bSmall = Math.min(a,b)
+      
+  for (let i = bSmall; i <= aBig; i++) {
+    sum += i
+  }
+  return sum
+}
