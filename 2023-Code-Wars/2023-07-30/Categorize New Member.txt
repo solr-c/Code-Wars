@@ -1,0 +1,11 @@
+function openOrSenior(data){
+  
+  let openMem = data.map((a,b) => {
+    if(a[0] >= 55 && a[1] > 7) {
+      return 'Senior'
+    } else {
+      return 'Open'
+    }
+  }) 
+  return openMem
+}
