@@ -1,0 +1,12 @@
+function solution(str, ending){  
+  if(str.slice(str.length - 1) === ending || 
+     str.slice(str.length - 2) === ending || 
+     str.slice(str.length - 3) === ending ||
+     str.slice(str.length - 4) === ending ) {
+    return true
+  } else if (str === ending || ending === '')  {
+    return true
+  } else {
+    return false
+  }
+}
