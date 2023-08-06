@@ -1,0 +1,6 @@
+function removeSmallest(numbers) {
+  let newArray = [...numbers]
+  let minIndex = newArray.indexOf(Math.min(...newArray))
+  newArray.splice(minIndex, 1)
+  return newArray
+}
