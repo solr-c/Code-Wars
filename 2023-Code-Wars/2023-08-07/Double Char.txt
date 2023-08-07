@@ -1,0 +1,8 @@
+function doubleChar(str) {
+  let emptyWord = ''
+  for(let i = 0; i < str.length; i++) {
+    emptyWord += str[i] + str[i]
+    console.log(emptyWord)
+  }
+  return emptyWord
+}
