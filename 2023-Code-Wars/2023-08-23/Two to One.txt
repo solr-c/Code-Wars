@@ -1,0 +1,5 @@
+function longest(s1, s2) {
+  let combineWords = s1+s2
+  let uniqueWords = [...new Set(combineWords)]  
+  return uniqueWords.sort().join('')
+}
