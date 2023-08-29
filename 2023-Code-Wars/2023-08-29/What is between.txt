@@ -1,0 +1,9 @@
+function between(a, b) {
+  let empArr = []
+  if (a < b) {
+    for(let i = a; i <= b; i++) {
+      empArr.push(i)
+    }
+  }
+  return empArr
+}
