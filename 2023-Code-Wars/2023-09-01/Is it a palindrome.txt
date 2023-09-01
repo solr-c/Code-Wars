@@ -1,0 +1,9 @@
+function isPalindrome(x) {
+  let palin = x.split('').reverse().join('')
+  
+  if (palin.toLowerCase() === x.toLowerCase()) {
+    return true
+  } else {
+    return false
+  }
+}
