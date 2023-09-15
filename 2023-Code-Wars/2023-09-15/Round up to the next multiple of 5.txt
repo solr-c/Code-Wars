@@ -1,0 +1,14 @@
+function roundToNext5(n){
+  const remainder = n % 5;
+  
+  if (remainder === 0) {
+    return n
+  } 
+  
+  if (n > 0) {
+    const difference = 5 - remainder
+    return n + difference
+  } else {
+    return n - remainder
+  } 
+}
