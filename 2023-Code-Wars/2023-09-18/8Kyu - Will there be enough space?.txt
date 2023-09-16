@@ -1,0 +1,9 @@
+function enough(cap, on, wait) {
+  let waitingToRide = on + wait;
+  
+  if (cap >= waitingToRide) {
+    return 0;
+  } else if (cap !== waitingToRide) {
+    return Math.abs(cap - waitingToRide)
+  }
+}
