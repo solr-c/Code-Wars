@@ -1,0 +1,12 @@
+export class Kata {
+  static getCount(str string) number {
+    let splitVowel = [];
+    let strSplit = str.split('')
+    for (let inumber = 0; i  strSplit.length; i++) {
+      if (strSplit[i] === 'a'  strSplit[i] === 'e' strSplit[i] === 'i' strSplit[i] === 'o' strSplit[i] === 'u') {
+        splitVowel.push(i)
+      }
+    }
+    return splitVowel.length;
+  }
+}
