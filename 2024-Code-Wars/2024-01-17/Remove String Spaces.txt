@@ -1,9 +1,0 @@
-function noSpace(x){
-  let returnX = ''
-  for (let i = 0; i < x.length; i++) {
-    if (x[i] !== ' ') {
-      returnX += x[i]
-    }
-  }
-  return returnX
-}
