@@ -1,0 +1,7 @@
+public class Kata {
+
+  public static int makeNegative(final int x) {
+    int negativeX = x;
+    return negativeX = (x > 0) ? -x : x;
+  }
+}

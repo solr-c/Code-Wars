@@ -1,0 +1,11 @@
+public class Solution {
+  public static String shortenToDate(String longDate) {
+    //Put your code here ^_^
+    String[] date = longDate.split(" ");
+    String day = date[0]; 
+    String month = date[1]; 
+    String dayNum = date[2].replace(",","");
+    
+    return day + " " + month + " " + dayNum;
+  }
+}
